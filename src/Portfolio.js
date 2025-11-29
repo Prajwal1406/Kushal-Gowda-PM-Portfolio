@@ -92,7 +92,7 @@ export default function Portfolio() {
               </button>
               {/* Changed button to anchor tag for download functionality */}
               <a
-                href="/resume.pdf"
+                href="https://github.com/kushalpm/Resume/raw/main/VLSI_Kushal_Gowda_P_M.pdf"
                 download="Kushal_Gowda_Resume.pdf"
                 className="px-6 py-3 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-lg font-medium transition-all flex items-center gap-2 cursor-pointer"
               >
