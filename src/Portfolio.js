@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react"; // Removed unused useState
 import {
   Cpu,
   Code,
-  Database,
   Mail,
   Phone,
   Linkedin,
@@ -10,19 +9,19 @@ import {
   ChevronRight,
   Layers,
   Terminal,
-  ExternalLink,
   BookOpen,
   Award,
+  // Removed Database and ExternalLink imports
 } from "lucide-react";
 
 export default function Portfolio() {
-  const [activeSection, setActiveSection] = useState("hero");
+  // Removed unused activeSection state
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      setActiveSection(id);
+      // Removed setActiveSection call
     }
   };
 
